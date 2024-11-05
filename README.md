@@ -85,19 +85,19 @@ git commit -m "Initial commit of nginx role"
 
 Добавляем удаленный репозиторий и пушим изменения на него:
 ```
-git remote add origin https://gitlab.com/andrey1707/ansible-nginx-role.git
+git remote add origin https://gitlab.com/devops9420745/ansible-nginx-role.git
 git push -u origin master
 ```
 <img width="1277" alt="Снимок экрана 2024-11-04 в 19 02 39" src="https://github.com/user-attachments/assets/38f8f6b8-f4ae-46c7-8384-4757f8adc610">
 
 Обновляем файл `requirements.yml`
 ```
-- src: https://gitlab.com/andrey1707/ansible-docker-role.git
+- src: https://gitlab.com/devops9420745/ansible-nginx-role.git
   scm: git
   version: master
   name: Docker
 
-- src: https://gitlab.com/andrey1707/ansible-nginx-role.git
+- src: https://gitlab.com/devops9420745/ansible-nginx-role.git
   scm: git
   version: master
   name: nginx
