@@ -1,0 +1,9 @@
+- src: https://gitlab.com/devops9420745/ansible-nginx-role.git
+  scm: git
+  version: master
+  name: Docker
+
+- src: https://gitlab.com/devops9420745/ansible-nginx-role.git
+  scm: git
+  version: master
+  name: nginx
